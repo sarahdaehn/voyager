@@ -1,9 +1,13 @@
 
+<div class="container">
+
 <%= image_tag city.image if city.image.attached? %>
 
 
 <div id="<%= dom_id city %>">
-  <p>
+
+
+<p>
     <strong>Name:</strong>
     <%= city.name %>
   </p>
@@ -18,5 +22,7 @@
     <strong>Highlights:</strong>
     <%= city.highlights %>
   </p>
+
+</div>
 
 </div>
